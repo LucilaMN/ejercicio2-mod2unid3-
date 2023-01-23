@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:aquamarine;
+    margin: 50px;
+}
+.barrastyle{
+    border-radius: 50px;
+    width: 500px;
+    height: 30px;
+    margin: 10px;
+}
+.barrastyle::-webkit-progress-bar{
+    border-radius: 100px;
+    background: white;
+    padding: 3px;
+}
+.barrastyle::-webkit-progress-value{
+    background: pink;
+    border-radius: 100px;
+}
